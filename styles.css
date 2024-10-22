@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  .container {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Counter styling */
+  #counter {
+    font-size: 2em;
+    margin: 0 20px;
+    color: #2980b9;
+  }
+  
+  button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #decrement {
+    background-color: #e74c3c;
+  }
+  
+  #decrement:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Form styling */
+  input {
+    padding: 10px;
+    width: 300px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  #saveForm {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #saveForm:hover {
+    background-color: #2ecc71;
+  }
+  
+  #formStatus {
+    margin-top: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
